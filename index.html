@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Alex Le's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,900" rel="stylesheet">
+
+    <!-- Template CSS Files -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.animatedheadline.css" />
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/skins/yellow.css" />
+
+    <!-- Template JS Files -->
+    <script src="js/modernizr.custom.js"></script>
+
+</head>
+
+<body class="dark">
+    <!-- Preloader Start -->
+    <div id="loader-wrapper">
+        <div id="loader"></div>
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+    <!-- Preloader Ends -->
+    <!-- Wrapper Starts -->
+    <div class="wrapper">
+		<div class="main-picture hide-on-med-and-down">
+		</div>
+        <div id="bl-main" class="bl-main">
+            <!-- Top Left Section Starts -->
+            <section class="topleft">
+                <div class="bl-box row valign-wrapper">
+                    <div class="row valign-wrapper mb-0">
+                        <div class="title-heading">
+                            <div class="selector uppercase" id="selector">
+                                <h3 class="ah-headline p-none m-none">
+                                    <span class="font-weight-400">Hi There ! I'm</span>
+									<span class="my-name">Alex Le</span>
+                                    <span class="ah-words-wrapper">
+										<b class="is-visible">web designer</b>
+										<b>full stack developer</b>
+										<b>entrepreneur</b>
+									</span>
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Top Left Section Ends -->
+            <!-- About Section Starts -->
+            <section>
+                <!-- About Title Starts -->
+                <div class="bl-box valign-wrapper">
+                    <div class="page-title center-align">
+                        <h2 class="center-align">
+                            <span data-hover="About">About </span>
+                            <span data-hover="Me">Me</span>
+                        </h2>
+                    </div>
+                </div>
+                <!-- About Title Ends -->
+                <!-- About Expanded Starts -->
+                <div class="bl-content">
+                    <!-- Main Heading Starts -->
+                    <div class="container page-title custom-page-title">
+                        <h2 class="center-align">
+                            <span>About</span>
+                            <span>Me</span>
+                        </h2>
+                    </div>
+                    <!-- Main Heading Ends -->
+                    <div class="container infos">
+						<!-- Divider Starts -->
+                        <div class="divider center-align">
+                            <span class="outer-line"></span>
+                            <span class="fa fa-vcard" aria-hidden="true"></span>
+                            <span class="outer-line"></span>
+                        </div>
+						<!-- Divider Ends -->
+						<!-- Personal Informations Starts -->
+                        <div class="row">
+							<!-- Picture Starts -->
+                            <div class="col s12 m4 profile-picture show-on-medium-and-down section-padding">
+								<img src="images/profilepic.jpeg" class="responsive-img my-picture" alt="My Photo">
+                            </div>
+							<!-- Picture Ends -->
+                            <div class="col s12 m8 l12 xl12 personal-info section-padding">
+                                <h6 class="uppercase"><i class="fa fa-user"></i> Personal Info</h6>
+								<div class="col m12 l12 xl9 p-none">
+									<p class="second-font">I'm a Full Stack Software Developer based in Houston, Texas with a Master's Degree in Finance.  <br>
+                                        Also, a data junkie with a serious passion for the fintech and techfin industry, focusing on big data, machine learning, and quantitative research.
+                                        </p> <br>
+                                        <p>In my free time, I enjoy culinary adventures, sports, and binge watching my favorite shows. </p> </br>
+									</p>
+								</div>
+                                <div class="col s12 m12 l6 p-none">
+                                    <ul class="second-font list-1">
+                                        <li><span class="font-weight-700">First Name: </span>Alex</li>
+                                        <li><span class="font-weight-700">Last Name: </span>Le</li>
+                                        <li><span class="font-weight-700">Nationality: </span>Vietnamese</li>
+                                        <li><span class="font-weight-700">Github: </span>https://github.com/alexle512</li>
+
+                                    </ul>
+                                </div>
+                                <a href="resume/Alex_Le_Resume.pdf" class="btn font-weight-700" target="_blank">
+									View Resume <i class="fa fa-file-pdf-o"></i>
+								</a>
+                            </div>
+                        </div>
+						<!-- Personal Informations Ends -->
+                    </div>
+					<!-- Resume Starts -->
+					<div class="resume-container">
+                        <div class="container">
+                            <div class="valign-wrapper row">
+								<!-- Resume Menu Starts -->
+                                <div class="resume-list col l4 section-padding">
+                                    <div class="resume-list-item is-active" data-index="0" id="resume-list-item-0">
+                                        <div class="resume-list-item-inner">
+                                            <h6 class="resume-list-item-title uppercase"><i class="fa fa-briefcase"></i> Experience</h6>
+                                        </div>
+                                    </div>
+                                    <div class="resume-list-item" data-index="1" id="resume-list-item-1">
+                                        <div class="resume-list-item-inner">
+                                            <h6 class="resume-list-item-title uppercase"><i class="fa fa-graduation-cap"></i> Education</h6>
+                                        </div>
+                                    </div>
+                                    <div class="resume-list-item" data-index="2" id="resume-list-item-2">
+                                        <div class="resume-list-item-inner">
+                                            <h6 class="resume-list-item-title uppercase"><i class="fa fa-star"></i> Skills</h6>
+                                        </div>
+                                    </div>
+                                </div>
+								<!-- Resume Menu Ends -->
+								<!-- Resume Content Starts -->
+                                <div class="col s12 m12 l8 resume-cards-container section-padding">
+                                    <div class="resume-cards">
+										<!-- Experience Starts -->
+                                        <div class="resume-card resume-card-0" data-index="0">
+											<!-- Experience Header Title Starts -->
+                                            <div class="resume-card-header">
+                                                <div class="resume-card-name"><i class="fa fa-briefcase"></i> Experience</div>
+                                            </div>
+											<!-- Experience Header Title Ends -->
+											<!-- Experience Content Starts -->
+                                            <div class="resume-card-body experience">
+                                                <div class="resume-card-body-container second-font">
+													<!-- Single Experience Starts -->
+                                                    <div class="resume-content">
+														<h6 class="uppercase"><span>Software Engineer - </span>Digital Crafts Bootcamp</h6>
+														<span class="date"><i class="fa fa-calendar-o"></i> 2018 - 2019</span>
+                                                        <p>Graduated from the program in Janurary 2019 with 1000+ hours of logged coding time.</p>
+                                                        <p>Leared and applied full stack development skiklls in JavaScript, Python, HTML, and CSS with database work in Postgresql and MongoDB</p>
+                                                        <p>Worked with and developed proficiences in frameworks such as jQuery, Node, and React. </p>
+                                                    </div>
+													<!-- Single Experience Ends -->
+                                                    <span class="separator"></span>
+													<!-- Single Experience Starts -->
+                                                    <div class="resume-content">
+														<h6 class="uppercase"><span>Co-Owner - </span>Nasa Liquor</h6>
+														<span class="date"><i class="fa fa-calendar-o"></i> 2012 - Present</span>
+                                                        <p>Provide day-to-day operations and business development for this boutique wine and spirits shop.</p>
+                                                        <p>Revenue has experienced an average growth of 8.9% yearly and surpassed $1.5mm in 2017. 5000+ Instagram followers (@nasaliquor)</p>
+                                                    </div>
+													<!-- Single Experience Ends -->
+                                                    <span class="separator"></span>
+													<!-- Single Experience Starts -->
+                                                    <div class="resume-content">
+														<h6 class="uppercase"><span>Internship - </span>Merill Lynch</h6>
+														<span class="date"><i class="fa fa-calendar-o"></i> 2012 - 2013</span>
+														<p>Gained exposure to key aspects of the Wealth Management Division, as well as various investment vehicles, personal portfolio analysis, relationship management, and client interaction</p>
+                                                    </div>
+													<!-- Single Experience Ends -->
+                                                </div>
+                                            </div>
+											<!-- Experience Content Starts -->
+                                        </div>
+										<!-- Experience Ends -->
+										<!-- Education Starts -->
+                                        <div class="resume-card resume-card-1" data-index="1">
+											<!-- Education Header Title Starts -->
+                                            <div class="resume-card-header">
+                                                <div class="resume-card-name"><i class="fa fa-graduation-cap"></i> Education</div>
+                                            </div>
+											<!-- Education Header Title Starts -->
+                                            <div class="resume-card-body education">
+                                                <div class="resume-card-body-container second-font">
+													<!-- Single Education Starts -->
+                                                    <div class="resume-content">
+														<h6 class="uppercase"><span>Masters of Science in Finance -</span>University of Houston</h6>
+														<span class="date"><i class="fa fa-calendar-o"></i> 2017 - 2018</span>
+														<p>Relevant Courses- Quantitative Analysis | Game Theory | Statistical Methods in Research</p>
+                                                    </div>
+													<!-- Single Education Ends -->
+                                                    <span class="separator"></span>
+													<!-- Single Education Starts -->
+                                                    <div class="resume-content">
+														<h6 class="uppercase"><span>Bachelors Degree - </span>University of Houston</h6>
+														<span class="date"><i class="fa fa-calendar-o"></i> 2011 - 2015</span>
+														<p>Relevant Courses- Information Systems for Management | Business Computer Applications | Statistics II </p>
+                                                    </div>
+								
+                                                </div>
+                                            </div>
+                                        </div>
+										<!-- Education Ends -->
+										<!-- Skills Starts -->
+                                        <div class="resume-card resume-card-2" data-index="2">
+											<!-- Skills Header Title Starts -->
+                                            <div class="resume-card-header">
+                                                <div class="resume-card-name"></i> Skills</div>
+                                            </div>
+											<!-- Skills Header Title Starts -->
+                                            <div class="resume-card-body skills">
+                                                <div class="resume-card-body-container second-font">
+                                                    <div class="row">
+														<!-- Skills Row Starts -->
+                                                        <div class="col s6">
+															<!-- Single Skills Starts -->
+                                                            <div class="resume-content">
+                                                                <h6 class="uppercase">Research</h6>
+                                                                <p>____________________</p>
+                                                                <p>Contextual Inquiry</p>
+                                                                <p>Comparative Analysis</p>
+                                                                <p>Statistical Analysis</p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+                                                            <!-- Single Skills Starts -->
+                                                            <br></br>
+                                                            <div class="resume-content">
+                                                                <h6 class="uppercase">Development</h6>
+                                                                <p>____________________</p>
+
+                                                                <p>HTML/CSS</p>
+                                                                <p>Python</p>
+																<p>JavaScript</p>
+																<p>SQL</p>
+																<p>Amazon Web Services</p>
+                                                            </div>
+															<!-- Single Skills Ends -->
+															<!-- Single Skills Starts -->
+                                                           
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+										<!-- Skills Ends -->
+                                    </div>
+                                </div>
+								<!-- Resume Content Ends -->
+                            </div>
+                        </div>
+                    </div>
+					<!-- Resume Ends -->
+					
+                <!-- End Expanded About -->
+
+                </div>
+                <!-- End Expanded About -->
+                <img alt="close" src="images/close-button.png" class="bl-icon-close" />
+            </section>
+            <!-- About Ends -->
+            <!-- Portfolio Starts -->
+            <section id="bl-work-section">
+				<!-- Portfolio Title Starts -->
+                <div class="bl-box valign-wrapper">
+                    <div class="page-title center-align">
+                        <h2 class="center-align">
+                            <span data-hover="my">my </span>
+                            <span data-hover="portfolio">portfolio</span>
+                        </h2>
+                    </div>
+                </div>
+				<!-- Portfolio Title Ends -->
+                <!-- Portfolio Expanded Starts -->
+                <div class="bl-content">
+                    <!-- Main Heading Starts -->
+                    <div class="container page-title center-align">
+                        <h2 class="center-align">
+                            <span data-hover="my">my </span>
+                            <span data-hover="portfolio">portfolio</span>
+                        </h2>
+                    </div>
+                    <!-- Main Heading Ends -->
+                    <div class="container">
+                        <!-- Divider Starts -->
+                        <div class="divider center-align">
+                            <span class="outer-line"></span>
+                            <span class="fa fa-suitcase" aria-hidden="true"></span>
+                            <span class="outer-line"></span>
+                        </div>
+                        <!-- Divider Ends -->
+                        <div class="row center-align da-thumbs" id="bl-work-items">
+                            <!-- Project Starts -->
+                            <div class="col s12 m6 l6 xl4" data-panel="panel-1">
+                                <a href="https://dc-cellar.herokuapp.com/myCellar">
+									<img class="responsive-img" src="images/mycellar.png" alt="Project" />
+									<div class="valign-wrapper"><span class="font-weight-700 uppercase">Cellar Tracker</span></div>
+								</a>
+                            </div>
+                            <!-- Project Ends -->
+                            <!-- Project Starts -->
+                            <div class="col s12 m6 l6 xl4" data-panel="panel-2">
+                                <a href="https://dc-pick-and-choose.herokuapp.com/index.html">
+									<img class="responsive-img" src="images/DateNight.png" alt="Project" />
+									<div class="valign-wrapper"><span class="font-weight-700 uppercase">Date Night</span></div>
+								</a>
+                            </div>
+                            <!-- Project Ends -->
+							<!-- Project Starts -->
+                            <div class="col s12 m6 l6 xl4" data-panel="panel-9">
+                                <a href="#">
+									<img class="responsive-img" src="http://via.placeholder.com/535x400" alt="Project" />
+									<div class="valign-wrapper"><span class="font-weight-700 uppercase">Image Project</span></div>
+								</a>
+                            </div>
+                            <!-- Project Ends -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Expanded Ends -->
+                <img alt="close" src="images/close-button.png" class="bl-icon-close" />
+            </section>
+            <!-- Portfolio Section Ends -->
+            <!-- Contact Section Starts -->
+            <section>
+				<!-- Contact Title Starts -->
+                <div class="bl-box valign-wrapper">
+                    <div class="page-title center-align">
+                        <h2 class="center-align">
+                            <span data-hover="get">get </span>
+                            <span data-hover="in touch">in touch</span>
+                        </h2>
+                    </div>
+                </div>
+				<!-- Contact Title Ends -->
+                <!-- Expanded Contact Starts -->
+                <div class="bl-content">
+                    <!-- Main Heading Starts -->
+                    <div class="container page-title center-align">
+                        <h2 class="center-align">
+                            <span data-hover="get">get </span>
+                            <span data-hover="in touch">in touch</span>
+                        </h2>
+                    </div>
+                    <!-- Main Heading Ends -->
+                    <div class="container">
+                        <!-- Divider Starts -->
+                        <div class="divider center-align">
+                            <span class="outer-line"></span>
+                            <span class="fa fa-envelope-open" aria-hidden="true"></span>
+                            <span class="outer-line"></span>
+                        </div>
+                        <!-- Divider Ends -->
+                        <div class="row contact section-padding">
+							<!-- Contact Infos Starts -->
+                            <div class="col s12 m5 l5 xl4 leftside">
+								<!-- Contacts Starts -->
+                                <h6 class="font-weight-700 uppercase">Phone</h6>
+                                <span class="font-weight-400 second-font"><i class="fa fa-phone"></i> 832-385-0249</span>
+								<h6 class="font-weight-700 uppercase">Email</h6>
+								<span class="font-weight-400 second-font"><i class="fa fa-envelope"></i> alexle512@gmail.com</span>
+								<h6 class="font-weight-700 uppercase">Location</h6>
+								<span class="font-weight-400 second-font"><i class="fa fa-home"></i> Houston, TX</span><br>
+								<!-- Contacts Ends -->
+								<!-- Social Media Profiles Starts -->
+                                <h6 class="font-weight-700 uppercase">Social Profiles</h6>
+                                <div class="social">
+                                    <ul class="list-inline social social-intro center-align p-none">
+                                        <li class="facebook"><a href="https://www.facebook.com/alex.le.71868964" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                        <li class="linkedin"><a href="https://www.linkedin.com/in/alexle92" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                        <li><a href="https://github.com/alexle512" target="_blank"><img src="images/githublogo.png" style="width: 35px; height: 35px;"></i></a></li>
+                                        <li><a href="https://www.instagram.com/nasaliquor/" target="_blank"><img src="images/instagram.png" style="width: 35px; height: 35px;"></i></a></li>
+
+                                    </ul>
+                                </div>
+								<!-- Social Media Profiles Ends -->
+                            </div>
+							<!-- Contact Infos Ends -->
+							<!-- Contact Form Starts -->
+                            <div class="col s12 m7 l7 xl8 rightside">
+								<h6 class="uppercase m-none font-weight-700">Feel free to drop me a line</h6>
+								<div class="row">
+									<p class="col s12 m12 l12 xl10 second-font">
+										If you have any suggestion, project or even you want to say Hello.. please fill out the form below and I will reply you shortly.
+									</p>
+								</div>
+                                <form class="contactform" method="post" action="php/process-form.php">
+                                    <!-- Name Field Starts -->
+                                    <div class="input-field second-font">
+                                        <i class="fa fa-user prefix"></i>
+                                        <input id="name" name="name" type="text" class="validate" required>
+                                        <label class="font-weight-400" for="name">Your Name</label>
+                                    </div>
+                                    <!-- Name Field Ends -->
+                                    <!-- Email Field Starts -->
+                                    <div class="input-field second-font">
+                                        <i class="fa fa-envelope prefix"></i>
+                                        <input id="email" type="email" name="email" class="validate" required>
+                                        <label for="email">Your Email</label>
+                                    </div>
+                                    <!-- Email Field Ends -->
+									<!-- Submit Form Button Starts -->
+                                    <div class="col s12 m12 l9 xl8 submit-form">
+                                        <button onclick="location.href='mailto:alexle512@gmail.com';">Send Message
+											 <i class="fa fa-send"></i>
+										</button>
+                                    </div>
+                                    <!-- Submit Form Button Ends -->
+                                    <div class="col s12 m12 l8 xl8 form-message">
+                                        <span class="output_message center-align font-weight-700 uppercase"></span>
+                                    </div>
+                                </form>
+                            </div>
+                            <!-- Contact Form Ends -->
+                        </div>
+                    </div>
+                </div>
+                <!-- Expanded Contact Ends -->
+                <img alt="close" src="images/close-button.png" class="bl-icon-close" />
+            </section>
+            <!-- Contact Section Ends -->
+            <!-- Portfolio Panel Items Starts -->
+            <div class="bl-panel-items" id="bl-panel-work-items">
+				<!-- Project Starts -->
+                <div data-panel="panel-1">
+                    <div class="row">
+                        <!-- Project Main Content Starts -->
+                        <div class="col s12 l6 xl6 section-padding section-padding-right-none">
+                            <img class="responsive-img" src="images/mycellar.png" alt="project" />
+                        </div>
+                        <!-- Project Main Content Ends -->
+                        <!-- Project Details Starts -->
+                        <div class="col s12 l6 xl6 section-padding">
+                            <h3 class="font-weight-700 uppercase">Cellar Tracker</h3>
+                            <ul class="project-details second-font">
+                                <li><i class="fa fa-user"></i><span class="font-weight-700"> Client </span>: <span class="font-weight-400 uppercase">Digital Crafts</span></li>
+                                <li><i class="fa fa-calendar-o"></i><span class="font-weight-700"> Start Date </span>: <span class="font-weight-400 uppercase">11/12/2018</span></li>
+								<li><i class="fa fa-calendar-check-o"></i><span class="font-weight-700"> End Date </span>: <span class="font-weight-400 uppercase">11/19/2018</span></li>
+                                <li><i class="fa fa-cogs"></i> <span class="font-weight-700"> Used Technologies</span> : <span class="font-weight-400 uppercase">html, css, javascript, postgresql, AWS </span></li>
+                            </ul>
+                            <hr>
+                            <a href="https://dc-cellar.herokuapp.com/myCellar" target="_blank" class="waves-effect waves-light btn font-weight-700">See Live<i class="fa fa-external-link"></i></a>
+                            <a href="https://github.com/alexle512/cellar-tracker" target="_blank" class="waves-effect waves-light btn font-weight-700">See Github Repository <i class="fa fa-external-link"></i></a>
+                        </div>
+                        <!-- Project Details Ends -->
+                    </div>
+                </div>
+				<!-- Project Ends -->
+				<!-- Project Starts -->
+                <div data-panel="panel-2">
+                    <div class="row">
+                        <!-- Project Main Content Starts -->
+                        <div class="col s12 l6 xl6 section-padding section-padding-right-none">
+                            <div class="carousel carousel-slider">
+                                <a class="carousel-item" href="#one!"><img class="responsive-img" src="images/DateNight.png" alt="project" ></a>
+                                <a class="carousel-item" href="#two!"><img class="responsive-img" src="images/PC2.png" alt="project" ></a>
+                                <a class="carousel-item" href="#three!"><img class="responsive-img" src="images/PC3.png" alt="project" ></a>
+                                <a class="carousel-item" href="#four!"><img class="responsive-img" src="images/PC4.png" alt="project" ></a>
+                            </div>
+                        </div>
+                        <!-- Project Main Content Ends -->
+                        <!-- Project Details Starts -->
+                        <div class="col s12 l6 xl6 section-padding">
+                            <h3 class="font-weight-700 uppercase">Date Night</h3>
+                            <ul class="project-details second-font">
+                                <li><i class="fa fa-user"></i><span class="font-weight-700"> Client </span>: <span class="font-weight-400 uppercase">Digital Crafts</span></li>
+                                <li><i class="fa fa-calendar-o"></i><span class="font-weight-700"> Start Date </span>: <span class="font-weight-400 uppercase">10/24/2018</span></li>
+								<li><i class="fa fa-calendar-check-o"></i><span class="font-weight-700"> End Date </span>: <span class="font-weight-400 uppercase">10/31/2018</span></li>
+                                <li><i class="fa fa-cogs"></i> <span class="font-weight-700"> Used Technologies</span> : <span class="font-weight-400 uppercase">html, css, javascript</span></li>
+                            </ul>
+                            <hr>
+                            <a href="https://dc-pick-and-choose.herokuapp.com/index.html" target="_blank" class="waves-effect waves-light btn font-weight-700">See Live<i class="fa fa-external-link"></i></a>
+                            <a href="https://github.com/alexle512/DigitalCrafts-Front-End-Project" target="_blank" class="waves-effect waves-light btn font-weight-700">See Github Repository<i class="fa fa-external-link"></i></a>
+                        </div>
+                        <!-- Project Details Ends -->
+                    </div>
+                </div>
+				<!-- Project Ends -->
+				<!-- Project Starts -->
+                <div data-panel="panel-9">
+                    <div class="row">
+                        <!-- Project Main Content Starts -->
+                        <div class="col s12 l6 xl6 section-padding section-padding-right-none">
+                            <img class="responsive-img" src="http://via.placeholder.com/535x400" alt="project" />
+                        </div>
+                        <!-- Project Main Content Ends -->
+                        <!-- Project Details Starts -->
+                        <div class="col s12 l6 xl6 section-padding">
+                            <h3 class="font-weight-700 uppercase">Image Project</h3>
+                            <ul class="project-details second-font">
+                                <li><i class="fa fa-user"></i><span class="font-weight-700"> Client </span>: <span class="font-weight-400 uppercase">Audiojungle</span></li>
+                                <li><i class="fa fa-calendar-o"></i><span class="font-weight-700"> Start Date </span>: <span class="font-weight-400 uppercase">02/11/2017</span></li>
+								<li><i class="fa fa-calendar-check-o"></i><span class="font-weight-700"> End Date </span>: <span class="font-weight-400 uppercase">02/08/2018</span></li>
+                                <li><i class="fa fa-cogs"></i> <span class="font-weight-700"> Used Technologies</span> : <span class="font-weight-400 uppercase">Adobe Audition, Adobe Premiere</span></li>
+                            </ul>
+                            <hr>
+                            <a href="#" class="waves-effect waves-light btn font-weight-700">Preview <i class="fa fa-external-link"></i></a>
+                        </div>
+                        <!-- Project Details Ends -->
+                    </div>
+                </div>
+				<!-- Project Ends -->
+                <!-- Portfolio Navigation Starts -->
+                <nav>
+                    <!-- Previous Work Icon Starts -->
+                    <span class="control-button bl-previous-work"><i class="fa fa-angle-left"></i></span>
+                    <!-- Previous Work Icon Ends -->
+                    <!-- Close Work Icon Starts -->
+					<img alt="close" src="images/close-button.png" class="control-button bl-icon-close" />
+                    <!-- Close Work Icon Ends -->
+                    <!-- Next Work Icon Starts -->
+                    <span class="control-button bl-next-work"><i class="fa fa-angle-right"></i></span>
+                    <!-- Previous Work Icon Ends -->
+                </nav>
+                <!-- Portfolio Navigation Ends -->
+            </div>
+            <!-- Portfolio Panel Items Ends -->
+        </div>
+    </div>
+    <!-- Wrapper Ends -->
+
+    <!-- Template JS Files -->
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery.animatedheadline.js"></script>
+    <script src="js/boxlayout.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
